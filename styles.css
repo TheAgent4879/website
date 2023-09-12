@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li {
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -53,6 +53,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
     transition: color 0.3s;
 }
 
@@ -67,8 +68,8 @@ main {
 .content {
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     animation: scaleIn 1s;
 }
 
@@ -90,3 +91,20 @@ footer {
     padding: 10px 0;
     animation: fadeIn 1s;
 }
+
+/* Additional styles for a better overall look */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
